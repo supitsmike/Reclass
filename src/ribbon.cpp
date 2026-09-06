@@ -53,7 +53,11 @@ constexpr int kRightMargin  = 6;
 // the Add / Insert words.
 constexpr int kPanelGap     = 10;
 constexpr int kDividerInset = 5;
-constexpr int kColGap       = 3;   // `|`
+// `|` between columns INSIDE a panel. 2, not 3: the columns already have
+// their own cell padding, and at 3 the Modify tab had one pixel of slack
+// at 1080 once "Break Class" became "Extract Class" — one metric nudge
+// away from silently dropping labels.
+constexpr int kColGap       = 2;
 constexpr int kSepGap       = 7;   // `||` (hairline in the middle)
 // The tab titles get noticeably more air than the strip gutter: they are the
 // ribbon's own navigation, read as words rather than buttons, and at kGutter
