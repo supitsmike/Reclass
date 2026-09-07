@@ -605,7 +605,6 @@ private:
     bool handleEditKey(QKeyEvent* ke);
     bool handleHexEditKey(QKeyEvent* ke);
     void showTypeAutocomplete();
-    void showSourcePicker();
     void showTypeListFiltered(const QString& filter);
     void updateTypeListFilter();
     void showPointerTargetPicker();
