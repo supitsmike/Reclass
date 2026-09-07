@@ -46,3 +46,4 @@ src/*.png
 /*_stderr.txt
 /*.out
 *.log
+__pycache__/
