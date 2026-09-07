@@ -26,5 +26,6 @@
     "indRttiHint": "#D19A66",
     "markerPtr": "#f44747",
     "markerCycle": "#e5a00d",
-    "markerError": "#7a2e2e"
+    "markerError": "#7a2e2e",
+    "focusGlow": "#F09A30"
 }
